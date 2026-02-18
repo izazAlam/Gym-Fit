@@ -265,3 +265,6 @@ body {
   object-fit: cover;
   display: block;
 }
+.preview .preview-content .sidebar {
+  width: 375px;
+}
