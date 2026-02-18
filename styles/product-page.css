@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+:root {
+  --black-text-color: #000000;
+  --gray-text-color: #444444;
+  --white-text-color: #ffffff;
+  --light-gray-text-color: #6e6e6e;
+  --lighter-gray-text-color: #ebebeb;
+  --silver-text-color: #53565a;
+
+  --max-width: 1440px;
+  --preview-area-width: 884px;
+  --sidebar-area-width: 375px;
+  --outer-margin: 50px;
+  --mobile-outer-margin: 20px;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
