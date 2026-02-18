@@ -201,7 +201,7 @@ body {
   justify-content: space-between;
 }
 .preview .preview-content .image-gallery {
-  width: 884px;
+  /* width: 884px; */
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 344px 1055px 521px;
