@@ -9,7 +9,7 @@
   <body>
     <div class="header">
       <div class="upper-header">
-        <ul class="upper-nav">
+        <ul class="upper-nav container">
           <li>
             <a href="#" class="upper-nav-item"
               ><img
@@ -35,48 +35,50 @@
           </li>
         </ul>
       </div>
-      <div class="lower-header">
-        <div class="logo">
-          <p>GYM <span>Fit</span></p>
-        </div>
-        <div class="products-nav-container">
-          <ul class="products-nav">
-            <li><a href="#" class="products-nav-item">Womens</a></li>
-            <li><a href="#" class="products-nav-item">Mens</a></li>
-            <li><a href="#" class="products-nav-item">Accessories</a></li>
-          </ul>
-        </div>
-        <div class="section-nav-container">
-          <ul class="section-nav">
-            <li>
-              <a href="#" class="section-nav-item"
-                ><img src="img/product-page-img/icons/search.png" alt=""
-              /></a>
-            </li>
-            <li>
-              <a href="#" class="section-nav-item"
-                ><img
-                  src="img/product-page-img/icons/heart.png"
-                  class="heart"
-                  alt=""
-              /></a>
-            </li>
-            <li>
-              <a href="#" class="section-nav-item"
-                ><img src="img/product-page-img/icons/profile.png" alt=""
-              /></a>
-            </li>
-            <li>
-              <a href="#" class="section-nav-item icon-wrapper">
-                <img
-                  src="img/product-page-img/icons/cart.png"
-                  alt=""
-                  class="cart"
-                />
-                <span class="badge">0</span>
-              </a>
-            </li>
-          </ul>
+      <div class="lower-nav-wrapper container">
+        <div class="lower-header">
+          <div class="logo">
+            <p>GYM <span>Fit</span></p>
+          </div>
+          <div class="products-nav-container">
+            <ul class="products-nav">
+              <li><a href="#" class="products-nav-item">Womens</a></li>
+              <li><a href="#" class="products-nav-item">Mens</a></li>
+              <li><a href="#" class="products-nav-item">Accessories</a></li>
+            </ul>
+          </div>
+          <div class="section-nav-container">
+            <ul class="section-nav">
+              <li>
+                <a href="#" class="section-nav-item"
+                  ><img src="img/product-page-img/icons/search.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="#" class="section-nav-item"
+                  ><img
+                    src="img/product-page-img/icons/heart.png"
+                    class="heart"
+                    alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="#" class="section-nav-item"
+                  ><img src="img/product-page-img/icons/profile.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="#" class="section-nav-item icon-wrapper">
+                  <img
+                    src="img/product-page-img/icons/cart.png"
+                    alt=""
+                    class="cart"
+                  />
+                  <span class="badge">0</span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -88,7 +90,7 @@
 
     <!-- ======== main ========= -->
 
-    <div class="main">
+    <div class="main container">
       <div class="preview">
         <div class="route">
           <p class="route-text">Home</p>
@@ -137,8 +139,8 @@
               />
             </div>
           </div>
-          <div class="sidebar">
-            <div class="new">New</div>
+          <div class="sidebar-container">
+            <div class="new"><p>New</p></div>
             <div class="product-info">
               <div class="name-price">
                 <div class="product-name">Power Short Sleeve Crew</div>
@@ -175,28 +177,33 @@
                 </div>
               </div>
             </div>
-            <hr class="sidebar" />
+            <hr class="sidebar-hr" />
             <div class="product-size">
               <div class="product-size-header">
                 <div class="select-size">Select size</div>
                 <div class="size-guide">
-                  <img src="img/product-page-img/icons/size.png" alt="" />
+                  <div class="img-container">
+                    <img src="img/product-page-img/icons/size.png" alt="" />
+                  </div>
+
                   <p>size guide</p>
                 </div>
-                <div class="sizes">
-                  <div class="size">xs</div>
-                  <div class="size">s</div>
-                  <div class="size">m</div>
-                  <div class="size">l</div>
-                  <div class="size">xl</div>
-                  <div class="size">xxl</div>
-                  <div class="size">3xl</div>
-                </div>
+              </div>
+              <div class="sizes">
+                <div class="size">xs</div>
+                <div class="size">s</div>
+                <div class="size">m</div>
+                <div class="size">l</div>
+                <div class="size">xl</div>
+                <div class="size">xxl</div>
+                <div class="size">3xl</div>
               </div>
             </div>
             <div class="add-to-bag">Add to bag</div>
             <div class="add-to-wishlist">
-              <img src="img/product-page-img/icons/heart.png" alt="" />
+              <div class="img-wrapper">
+                <img src="img/product-page-img/icons/heart.png" alt="" />
+              </div>
               <p>Add to wishlist</p>
             </div>
             <div class="checkout">
@@ -209,23 +216,25 @@
               </div>
             </div>
             <div class="delivery">
-              <div class="free-return">
-                <img src="img/product-page-img/icons/return.png" alt="" />
-                <p>Free Returns On All Orders</p>
-              </div>
-              <div class="standard-delivery">
-                <img src="img/product-page-img/icons/delivery.png" alt="" />
-                <p>Free Standard Delivery over £45</p>
-              </div>
-              <div class="free-return">
-                <img
-                  src="img/product-page-img/icons/express-delivery.png"
-                  alt=""
-                />
-                <p>Free Express Delivery over £65</p>
+              <div class="delivery-items">
+                <div class="free-return">
+                  <img src="img/product-page-img/icons/return.png" alt="" />
+                  <p>Free Returns On All Orders</p>
+                </div>
+                <div class="standard-delivery">
+                  <img src="img/product-page-img/icons/delivery.png" alt="" />
+                  <p>Free Standard Delivery over £45</p>
+                </div>
+                <div class="free-return">
+                  <img
+                    src="img/product-page-img/icons/express-delivery.png"
+                    alt=""
+                  />
+                  <p>Free Express Delivery over £65</p>
+                </div>
               </div>
             </div>
-            <hr class="sidebar" />
+            <hr class="sidebar-hr" />
             <div class="product-description">
               <div class="title">Description</div>
               <div class="motto">POWER. MADE TO FAIL IN.</div>
@@ -254,13 +263,15 @@
                 <li>- SKU: A1A4W-NBD4</li>
               </ul>
             </div>
-            <hr class="sidebar" />
+            <hr class="sidebar-hr" />
             <div class="delivery-returns">
               <p>Delivery & Returns</p>
             </div>
-            <hr class="sidebar" />
+            <hr class="sidebar-hr" />
             <div class="share">
-              <img src="img/product-page-img/icons/share.png" alt="" />
+              <div class="img-wrapper">
+                <img src="img/product-page-img/icons/share.png" alt="" />
+              </div>
               <p>share</p>
             </div>
           </div>
