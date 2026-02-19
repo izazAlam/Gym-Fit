@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product Page</title>
     <link rel="stylesheet" href="styles/product-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <div class="header">
@@ -90,13 +94,13 @@
 
     <!-- ======== main ========= -->
 
-    <div class="main container">
+    <div class="main">
       <div class="preview">
-        <div class="route">
+        <div class="route container">
           <p class="route-text">Home</p>
           <p class="route-text">Power Short Sleeve Crew</p>
         </div>
-        <div class="preview-content">
+        <div class="preview-content container">
           <div class="image-gallery">
             <div class="image-01">
               <img
@@ -277,7 +281,143 @@
           </div>
         </div>
       </div>
-      <div class="more"></div>
+      <div class="more">
+        <div class="slider-01">
+          <div class="sections">
+            <div class="left-section active">Wear it with</div>
+            <div class="right-section">You might like</div>
+          </div>
+          <div class="slider-bar">
+            <div class="darker-bar"></div>
+          </div>
+        </div>
+        <div class="slider-02 container">
+          <div class="card-wrapper swiper">
+            <ul class="card-list swiper-wrapper">
+              <li class="card-item swiper-slide">
+                <a href="#" class="card-link">
+                  <div class="images">
+                    <img
+                      src="img/product-page-img/wear-it-with/wear-it-with-01.png"
+                      alt=""
+                      class="card-image"
+                    />
+                    <div class="heart-button">
+                      <img src="img/product-page-img/icons/heart.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="text-section">
+                    <div class="header">
+                      <div class="new">New</div>
+                      <div class="price">£20.00</div>
+                    </div>
+                    <div class="title">Sports Tech Boxers 2pk</div>
+                    <div class="color">Black/Core Olive</div>
+                  </div>
+                </a>
+              </li>
+              <li class="card-item swiper-slide">
+                <a href="#" class="card-link">
+                  <div class="images">
+                    <img
+                      src="img/product-page-img/wear-it-with/wear-it-with-02.png"
+                      alt=""
+                      class="card-image"
+                    />
+                    <div class="heart-button">
+                      <img src="img/product-page-img/icons/heart.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="text-section">
+                    <div class="header">
+                      <div class="new">New</div>
+                      <div class="price">£20.00</div>
+                    </div>
+                    <div class="title">Sports Tech Boxers 2pk</div>
+                    <div class="color">Black/Core Olive</div>
+                  </div>
+                </a>
+              </li>
+              <li class="card-item swiper-slide">
+                <a href="#" class="card-link">
+                  <div class="images">
+                    <img
+                      src="img/product-page-img/wear-it-with/wear-it-with-03.png"
+                      alt=""
+                      class="card-image"
+                    />
+                    <div class="heart-button">
+                      <img src="img/product-page-img/icons/heart.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="text-section">
+                    <div class="header">
+                      <div class="new">New</div>
+                      <div class="price">£20.00</div>
+                    </div>
+                    <div class="title">Sports Tech Boxers 2pk</div>
+                    <div class="color">Black/Core Olive</div>
+                  </div>
+                </a>
+              </li>
+              <li class="card-item swiper-slide">
+                <a href="#" class="card-link">
+                  <div class="images">
+                    <img
+                      src="img/product-page-img/wear-it-with/wear-it-with-04.png"
+                      alt=""
+                      class="card-image"
+                    />
+                    <div class="heart-button">
+                      <img src="img/product-page-img/icons/heart.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="text-section">
+                    <div class="header">
+                      <div class="new">New</div>
+                      <div class="price">£20.00</div>
+                    </div>
+                    <div class="title">Sports Tech Boxers 2pk</div>
+                    <div class="color">Black/Core Olive</div>
+                  </div>
+                </a>
+              </li>
+              <li class="card-item swiper-slide">
+                <a href="#" class="card-link">
+                  <div class="images">
+                    <img
+                      src="img/product-page-img/wear-it-with/wear-it-with-05.jpg"
+                      alt=""
+                      class="card-image"
+                    />
+                    <div class="heart-button">
+                      <img src="img/product-page-img/icons/heart.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="text-section">
+                    <div class="header">
+                      <div class="new">New</div>
+                      <div class="price">£20.00</div>
+                    </div>
+                    <div class="title">Sports Tech Boxers 2pk</div>
+                    <div class="color">Black/Core Olive</div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <div class="swiper-button-prev">
+              <img src="img/product-page-img/icons/left-arrow.png" alt="" />
+            </div>
+            <div class="swiper-button-next">
+              <img src="img/product-page-img/icons/right-arrow.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <div class="emni"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
