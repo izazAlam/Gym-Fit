@@ -29,22 +29,44 @@ const swiper = new Swiper(".swiper", {
 const prevButton = document.querySelector(".swiper-button-prev");
 const nextButton = document.querySelector(".swiper-button-next");
 const darker03 = document.querySelector(".darker-bar-03");
+const slider03Bar = document.querySelector(".slider-03 .slider-03-bar");
 
-darker03.style.left = "0px";
+const slider02Items = document.querySelectorAll(".slider-02 .card-item");
+const itemCount = slider02Items.length;
 
-prevButton.addEventListener("click", () => {
-  swiper.slidePrev();
-  const currentLeft = parseInt(darker03.style.left);
+const slidesPerView =
+  (swiper && swiper.params && swiper.params.slidesPerView) || 4;
 
-  if (currentLeft !== 0) {
-    darker03.style.left = currentLeft - 132 + "px";
-  }
-});
+const movementCount = Math.max(0, itemCount - slidesPerView);
 
-nextButton.addEventListener("click", () => {
-  swiper.slideNext();
-  const currentLeft = parseInt(darker03.style.left);
-  if (currentLeft <= 1180) {
-    darker03.style.left = currentLeft + 132 + "px";
-  }
-});
+if (darker03 && slider03Bar && itemCount > 0) {
+  const barWidth = slider03Bar.clientWidth || 1320;
+
+  const step = segments > 0 ? Math.round(barWidth / segments) : barWidth;
+
+  darker03.style.width = step + "px";
+  darker03.style.left = "0px";
+
+  const maxLeft = Math.max(0, barWidth - step);
+
+  prevButton.addEventListener("click", () => {
+    const currentLeft = parseInt(darker03.style.left) || 0;
+    if (currentLeft > 0) {
+      const newLeft = Math.max(0, currentLeft - step);
+      darker03.style.left = newLeft + "px";
+      swiper.slidePrev();
+    }
+  });
+
+  nextButton.addEventListener("click", () => {
+    const currentLeft = parseInt(darker03.style.left) || 0;
+    if (currentLeft < maxLeft) {
+      const newLeft = Math.min(maxLeft, currentLeft + step);
+      darker03.style.left = newLeft + "px";
+      swiper.slideNext();
+    }
+  });
+} else {
+  prevButton.addEventListener("click", () => swiper.slidePrev());
+  nextButton.addEventListener("click", () => swiper.slideNext());
+}
