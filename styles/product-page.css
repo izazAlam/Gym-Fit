@@ -806,6 +806,7 @@ body {
   align-items: center;
   justify-content: center;
   z-index: 10;
+  font-size: 0 !important;
 }
 
 .swiper-button-prev {
@@ -815,12 +816,38 @@ body {
   right: 0;
 }
 
-.swiper-button-prev::after,
-.swiper-button-next::after {
-  display: none !important;
-}
-
 .swiper-button-prev img,
 .swiper-button-next img {
   width: 14px;
+}
+
+.card-wrapper {
+  max-width: 1402px;
+  margin: 0 auto;
+}
+.card-list {
+  max-width: 1302px;
+  margin: 0 auto;
+}
+
+.swiper-slide {
+  width: 320px !important;
+}
+.slider-03 .slider-03-bar {
+  margin-top: 15px;
+  width: 1320px;
+  height: 5px;
+  border-radius: 10px;
+  position: relative;
+  background-color: #ebebeb;
+}
+.slider-03 .slider-03-bar .darker-bar-03 {
+  width: 132px;
+  height: 5px;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #53565a;
+  transition: ease-in 0.3s;
 }
