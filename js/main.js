@@ -42,6 +42,7 @@ const movementCount = Math.max(0, itemCount - slidesPerView);
 if (darker03 && slider03Bar && itemCount > 0) {
   const barWidth = slider03Bar.clientWidth || 1320;
 
+  const segments = movementCount + 1;
   const step = segments > 0 ? Math.round(barWidth / segments) : barWidth;
 
   darker03.style.width = step + "px";
