@@ -168,7 +168,7 @@ body {
   text-align: center;
   font-family: Montserrat;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 11px;
   line-height: 12.65px;
   letter-spacing: 0%;
@@ -192,7 +192,7 @@ body {
 .preview .route .route-text {
   font-family: Roboto;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 14px;
   line-height: 16.1px;
   letter-spacing: 0%;
@@ -258,7 +258,7 @@ body {
 .image-04 .wear p {
   font-family: Montserrat;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 12px;
   line-height: 17px;
   letter-spacing: 0.5px;
@@ -291,7 +291,7 @@ body {
 .sidebar-container .new p {
   font-family: Roboto;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 11px;
   line-height: 15px;
   letter-spacing: 0%;
@@ -326,7 +326,7 @@ body {
 .product-info .product-type {
   font-family: Roboto;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 0%;
@@ -338,7 +338,7 @@ body {
 .product-info .size-detail {
   font-family: Roboto;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 13px;
   line-height: 21px;
   letter-spacing: 0%;
@@ -359,7 +359,7 @@ body {
 .color-header p .colon {
   font-family: Montserrat;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 0%;
@@ -368,7 +368,7 @@ body {
 .color-header p .color-name {
   font-family: Roboto;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 13px;
   line-height: 21px;
   letter-spacing: 0%;
@@ -405,7 +405,7 @@ body {
 .product-size-header .select-size {
   font-family: Montserrat;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 13px;
   line-height: 18px;
   letter-spacing: 0%;
@@ -423,7 +423,7 @@ body {
 .product-size-header .size-guide p {
   font-family: Roboto;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0%;
@@ -444,7 +444,7 @@ body {
 
   font-family: Roboto;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 0%;
@@ -459,7 +459,7 @@ body {
 .add-to-bag {
   font-family: Montserrat;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 14px;
   line-height: 16.1px;
   letter-spacing: 0.5px;
@@ -492,7 +492,7 @@ body {
 .add-to-wishlist p {
   font-family: Montserrat;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 14px;
   line-height: 16.1px;
   letter-spacing: 0.5px;
@@ -528,7 +528,7 @@ body {
 .checkout-benefit p {
   font-family: Roboto;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 0%;
@@ -562,7 +562,7 @@ body {
 
   font-family: Roboto;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 14px;
   leading-trim: NONE;
   line-height: 16.1px;
@@ -576,7 +576,7 @@ body {
 .product-description .title {
   font-family: Montserrat;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 14px;
   leading-trim: NONE;
   line-height: 21px;
@@ -587,7 +587,7 @@ body {
 .product-description .motto {
   font-family: Roboto;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 16px;
   line-height: 23px;
   letter-spacing: 0%;
@@ -596,7 +596,7 @@ body {
 .product-description .description {
   font-family: Roboto;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 16px;
   leading-trim: NONE;
   line-height: 23px;
@@ -610,7 +610,7 @@ body {
 .description-list li {
   font-family: Roboto;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 15px;
   line-height: 23px;
   letter-spacing: 0%;
@@ -619,7 +619,7 @@ body {
 .delivery-returns {
   font-family: Montserrat;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 0%;
@@ -633,7 +633,7 @@ body {
   align-items: center;
   font-family: Roboto;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 14px;
   line-height: 16.1px;
   letter-spacing: 0%;
@@ -663,7 +663,7 @@ body {
 .left-section {
   font-family: Montserrat;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 16px;
   line-height: 21px;
   letter-spacing: 0%;
@@ -676,7 +676,7 @@ body {
 .right-section {
   font-family: Montserrat;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 16px;
   line-height: 21px;
   letter-spacing: 0%;
@@ -741,7 +741,7 @@ body {
   border-left: 3px solid #000;
   font-family: Roboto;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 11px;
   line-height: 15px;
   letter-spacing: 0%;
@@ -751,7 +751,7 @@ body {
 .text-section .header .price {
   font-family: Roboto;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0%;
@@ -760,9 +760,8 @@ body {
 .text-section .title {
   font-family: Roboto;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 16px;
-  leading-trim: NONE;
   line-height: 23px;
   letter-spacing: 0%;
   text-transform: capitalize;
@@ -773,7 +772,7 @@ body {
 .text-section .color {
   font-family: Roboto;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 13px;
   leading-trim: NONE;
   line-height: 21px;
@@ -787,11 +786,6 @@ body {
   height: 32px;
   width: 32px;
   background-color: #000;
-}
-
-.card-wrapper {
-  position: relative;
-  padding: 0 50px;
 }
 
 .swiper-button-prev,
@@ -821,8 +815,15 @@ body {
   width: 14px;
 }
 
+@media (max-width: 768px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+}
+
 .card-wrapper {
-  max-width: 1402px;
+  max-width: 1412px;
   margin: 0 auto;
 }
 .card-list {
@@ -840,8 +841,9 @@ body {
   border-radius: 10px;
   position: relative;
   background-color: #ebebeb;
-  margin-bottom: 184;
+  margin-bottom: 184px;
 }
+
 .slider-03 .slider-03-bar .darker-bar-03 {
   height: 5px;
   border-radius: 10px;
@@ -891,7 +893,7 @@ body {
 .section-list li .section-link {
   font-family: Roboto;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 0%;
@@ -940,7 +942,7 @@ body {
 .more-about-item-title {
   font-family: Montserrat;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 12px;
   line-height: 18px;
   letter-spacing: 0%;
@@ -984,7 +986,7 @@ body {
 .lower-lower .copyright {
   font-family: Roboto;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 13px;
   line-height: 16.1px;
   letter-spacing: 0%;
@@ -1003,7 +1005,7 @@ body {
 .lower-lower .legal-link-list .list-item {
   font-family: Roboto;
   font-weight: 400;
-  font-style: Regular;
+
   font-size: 14px;
   line-height: 19px;
   letter-spacing: 0%;
@@ -1017,11 +1019,11 @@ body {
   justify-content: flex-end;
 }
 
-@media (max-width: 375px) {
-  /* .container {
+@media (max-width: 500px) {
+  .container {
     max-width: 335px;
     margin: 0 auto;
-  } */
+  }
   .lower-grid {
     display: flex;
     flex-direction: column;
@@ -1067,6 +1069,10 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    overflow: visible;
+  }
+  .footer-container {
+    padding: 60px 0px 18px;
   }
   .more-about-gym {
     gap: 10px;
@@ -1074,8 +1080,8 @@ body {
   .upper-portion .footer-links {
     flex-direction: column;
   }
-  .help-section,
-  .pages-section {
+  .link-container:first-child,
+  .link-container:last-child {
     order: 1;
   }
   .section .section-menu {
@@ -1100,5 +1106,20 @@ body {
   .account-section .section-header::after {
     content: "";
     width: 335px;
+  }
+  .link-container {
+    border-bottom: 1px solid #c4c4c4;
+    padding: 10px 0 10px;
+  }
+  .link-container:nth-child(2) {
+    padding-bottom: 20px;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    visibility: hidden;
+  }
+  .card-wrapper ul {
+    padding: 20px;
+    margin: 0 auto;
   }
 }
