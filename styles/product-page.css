@@ -1174,12 +1174,21 @@ body {
   .ad {
     display: none;
   }
-  .sidebar-container .product-info {
+  .preview-content .sidebar-container .product-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .preview-content .sidebar-container .product-info .left {
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 0px;
   }
   .new {
     margin-top: 30px;
+  }
+  .product-price {
+    margin-bottom: 6px;
   }
   .product-size .sizes .size {
     width: 63px;
@@ -1274,5 +1283,8 @@ body {
   }
   .preview-mobile {
     display: block;
+  }
+  .more {
+    padding-bottom: 65px;
   }
 }
