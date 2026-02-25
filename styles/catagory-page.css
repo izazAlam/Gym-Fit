@@ -351,7 +351,86 @@ body {
 ========================================= */
 .content-wrapper {
   max-width: 1320px;
-  margin: 30px auto;
+  margin: 0px auto;
+  padding: 30px 0 30px;
+}
+.hero-section {
+  height: 644px;
+  display: flex;
+  align-items: center;
+}
+
+.contents .content {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.content h2 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 45px;
+}
+.content h2 span {
+  display: block;
+}
+.best-seller {
+  background: url("../img/catagory-page/heroes/best-seller.png");
+}
+.best-seller .btn {
+  margin-top: 40px;
+}
+.best-seller span {
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+
+.btn a {
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  text-align: center;
+  border-radius: 50px;
+
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 14.95px;
+  text-align: center;
+}
+.section-contents {
+  display: flex;
+  flex-direction: column;
+}
+.section-contents .content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+.collection-cards ul {
+  display: flex;
+  gap: 10px;
+}
+.card-description {
+  display: flex;
+  justify-content: space-between;
+}
+.card-image {
+  position: relative;
+}
+.fit {
+  position: absolute;
+  bottom: 7px;
+  text-align: center;
+  width: 97%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 /* ===========================================
 >> RESPONSIVE MOBILE DESIGN<<
@@ -565,5 +644,23 @@ body {
 
   .content-wrapper {
     max-width: 335px;
+  }
+  .collection-card {
+    width: 160px;
+  }
+  .collection-cards ul {
+    overflow-x: auto;
+  }
+  .collection-card img {
+    width: 160px;
+  }
+  .collection-card img::-webkit-scrollbar {
+    display: none;
+  }
+  .card-description .left,
+  .card-description .right {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
   }
 }
