@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 :root {
@@ -375,20 +375,21 @@ body {
   display: flex;
   align-items: center;
 }
-.legacy-hero .content-header {
+.legacy-hero .content-header-hero {
   color: #fff;
+  margin-bottom: 25px;
 }
-.content-header h2 {
+.content-header-hero h2 {
   font-family: "Montserrat";
   font-weight: 800;
   font-size: 40px;
   line-height: 45px;
-  letter-spacing: 0.5px;
+  letter-spacing: 0px;
   text-transform: uppercase;
 
   margin-bottom: 20px;
 }
-.hero-legacy .content-header p {
+.hero-legacy .content-header-hero p {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 15px;
@@ -404,13 +405,18 @@ body {
   line-height: 14.95px;
   letter-spacing: 0%;
   text-align: center;
-  text-transform: uppercase;
+  display: inline-block;
 }
 /* legacy collection */
 .legacy-collection .content-wrapper {
   padding: 30px 0;
 }
 .legacy-collection .content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.content-header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -431,7 +437,7 @@ body {
   letter-spacing: 0%;
   text-transform: uppercase;
 }
-.legacy-collection .content-header .right p {
+.content-header .right p {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
@@ -439,22 +445,22 @@ body {
   letter-spacing: 0%;
   text-decoration: underline;
 }
-.legacy-collection .collection-cards {
+.collection-cards {
   margin-top: 30px;
 }
-.legacy-collection .collection-cards ul {
+.collection-cards ul {
   display: flex;
   gap: 15px;
 }
-.legacy-collection .collection-cards li {
+.collection-cards li {
   flex: 0 0 auto;
 }
-.legacy-collection .collection-card .card-image {
+.collection-card .card-image {
   position: relative;
   width: 320px;
-  height: 385px;
+  /* height: 385px; */
 }
-.legacy-collection .collection-card .card-image .fit {
+.collection-card .card-image .fit {
   position: absolute;
   bottom: 7px;
   background-color: rgba(255, 255, 255, 0.8);
@@ -514,6 +520,326 @@ body {
   letter-spacing: 0%;
   text-align: right;
   text-transform: capitalize;
+}
+.legacy-collection .content-header .right {
+  cursor: pointer;
+}
+/* ===========================================
+>> New Design Hero <<
+========================================= */
+.new-design-hero {
+  background: url("../img/home-page-img/heroes/new-design.png") no-repeat
+    center/cover;
+  height: 570px;
+}
+.new-designer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #ffffff;
+}
+.new-designer-container h2 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.new-designer-container p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  margin-bottom: 40px;
+}
+.new-designer-container .buttons {
+  display: flex;
+  gap: 30px;
+}
+.new-designer-container .buttons .shop-womens {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 14.95px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.new-designer-container .buttons .shop-men {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 14.95px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #53565a;
+  color: white;
+}
+.movement-hero {
+  background: url("../img/home-page-img/heroes/movement.png") no-repeat
+    center/cover;
+  height: 636px;
+}
+.hero .content-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.movement-hero .content-header-hero {
+  color: white;
+}
+.movement-hero .content-header-hero h2 span {
+  display: block;
+}
+.movement-hero .content-header-hero p {
+  margin-bottom: 25px;
+}
+/* ===========================================
+>> New Design Collection<<
+========================================= */
+.new-design-collection .content-wrapper {
+  padding-top: 30px;
+}
+.styled-by-simmons.hero {
+  background: url("../img/home-page-img/heroes/simmons.png") no-repeat
+    center/cover;
+  height: 636px;
+}
+.new-designer-container .shop.btn {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 14.95px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.email.hero {
+  background: url("../img/home-page-img/heroes/emails.png") no-repeat
+    center/cover;
+  height: 636px;
+  margin-bottom: 30px;
+}
+.email.hero .content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.email.hero .content-wrapper h2 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 782px;
+  margin-bottom: 20px;
+}
+.email.hero .content-wrapper p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.email.hero .content-wrapper .shop {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 14.95px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.thrift.hero {
+  background: url("../img/home-page-img/heroes/thrift.png") no-repeat
+    center/cover;
+  height: 636px;
+}
+.thrift.hero .content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.thrift.hero .content-wrapper h2 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 782px;
+  margin-bottom: 20px;
+}
+.thrift.hero .content-wrapper p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.thrift.hero .content-wrapper .buttons {
+  display: flex;
+  gap: 30px;
+}
+.thrift.hero .content-wrapper .buttons .order {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 14.95px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.thrift.hero .content-wrapper .buttons .learn {
+  background-color: #53565a;
+  color: var(--white-text-color);
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 14.95px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.men-women .content-wrapper {
+  padding: 30px 0 30px;
+  display: flex;
+  gap: 10px;
+  margin: 0 auto;
+}
+.men-women .content-wrapper .left {
+  background: url("../img/home-page-img/heroes/men.png") no-repeat center/cover;
+  height: 430px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 60px;
+}
+
+.men-women .content-wrapper .left span {
+  display: block;
+}
+.men-women .content-wrapper .right {
+  background: url("../img/home-page-img/heroes/women.png") no-repeat
+    center/cover;
+  height: 430px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 60px;
+}
+.men-women .content-wrapper .right .content,
+.men-women .content-wrapper .left .content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.men-women .content-wrapper .right span {
+  display: block;
+}
+.men-women .content-wrapper .btn.shop {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 14.95px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.men-women .content-wrapper h2 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: right;
+  text-transform: uppercase;
+  color: white;
+}
+.discounts {
+  background-color: #ececec;
+}
+.discounts .content-wrapper {
+  display: flex;
+  padding: 30px 0 30px;
+  gap: 10px;
+}
+.discounts .content-wrapper .left,
+.discounts .content-wrapper .middle,
+.discounts .content-wrapper .right {
+  width: 433px;
+  height: 309px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discounts .content-wrapper .left {
+  background: url("../img/home-page-img/heroes/discount-01.png") no-repeat
+    center/cover;
+}
+.discounts .content-wrapper .middle {
+  background: url("../img/home-page-img/heroes/discount-02.png") no-repeat
+    center/cover;
+}
+.discounts .content-wrapper .right {
+  background: url("../img/home-page-img/heroes/discount-03.png") no-repeat
+    center/cover;
+}
+.discounts .content-wrapper .btn.shop {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 14.95px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.discounts .content-wrapper .content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  width: 270px;
+}
+.discounts .content-wrapper .content h4 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+.motivation .content-wrapper {
+  padding: 30px 0 30px;
+}
+.motivation .content-wrapper .texts {
+  padding: 33px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 1px solid #bbbcbc;
+}
+.motivation .content-wrapper .texts h5 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+.motivation .content-wrapper .texts p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0%;
+  color: #6e6e6e;
 }
 /* ===========================================
 >> RESPONSIVE MOBILE DESIGN<<
@@ -608,7 +934,6 @@ body {
     gap: 0px;
   }
   .account-section .section-header {
-    font-family: Montserrat;
     font-weight: 700;
     font-style: Bold;
     font-size: 14px;
@@ -737,39 +1062,103 @@ body {
     align-items: flex-end;
     padding: 50px 0;
   }
-  .legacy-collection .content-header {
+  .content-header {
     flex-direction: column;
     align-items: flex-start;
-    gap: 15px;
+    gap: 5px;
   }
-  .legacy-collection .content-header .left {
+  .content-header .left {
     display: flex;
     flex-direction: column;
     gap: 0px;
   }
-  .legacy-collection .collection-cards {
+  .legacy-collection .content-header {
+    align-items: flex-start;
+  }
+  .collection-cards {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
-  .legacy-collection .collection-cards::-webkit-scrollbar {
+  .collection-cards::-webkit-scrollbar {
     display: none;
   }
-  .legacy-collection .collection-cards ul {
+  .collection-cards ul {
+    /* height: 250px; */
   }
-  .legacy-collection .collection-cards .collection-card {
+  .collection-cards .collection-card {
     flex: 0 0 auto;
   }
-  .legacy-collection .collection-card {
+  .collection-card {
     width: 160px;
-    height: 193px;
+    /* height: 250px; */
   }
-  .legacy-collection .collection-card .card-image {
+  .collection-card .card-image {
     width: 160px;
-    height: 193px;
+    /* height: 220px; */
   }
-  .legacy-collection .collection-card .card-image img {
+  .collection-card .card-image img {
     object-fit: cover;
+    object-position: center;
     width: 160px;
-    height: 193px;
+    /* height: 220px; */
+  }
+  .collection-card .card-image .fit {
+    padding: 5px 0;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+  }
+  .card-description {
+    z-index: 20;
+    flex-direction: column;
+  }
+  .card-description .left {
+    flex-direction: column;
+  }
+  .new-designer-container {
+    align-items: flex-start;
+  }
+  .new-designer-container .buttons {
+    flex-direction: column;
+  }
+  .motivation .content-wrapper .texts p {
+    display: inline;
+  }
+  .motivation .content-wrapper .texts {
+    padding: 15px;
+  }
+  .discounts .content-wrapper .btn.shop {
+    padding: 15px 30px;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14.95px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .discounts .content-wrapper {
+    overflow-x: auto;
+  }
+  .discounts .content-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  .men-women .content-wrapper {
+    flex-direction: column;
+  }
+  .thrift.hero .content-wrapper h2 {
+    width: 338px;
+  }
+  .thrift.hero .content-wrapper .buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .email.hero .content-wrapper h2 {
+    width: 334px;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
   }
 }
