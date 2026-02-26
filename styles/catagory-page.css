@@ -355,6 +355,7 @@ body {
   height: 644px;
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 .content {
@@ -383,7 +384,7 @@ body {
 }
 .best-seller {
   background: url("../img/catagory-page/heroes/best-seller.png") no-repeat
-    center center;
+    center center/ cover;
 }
 .best-seller .btn {
   margin-top: 40px;
@@ -457,7 +458,7 @@ body {
 }
 .new-release {
   background: url("../img/catagory-page/heroes/failure.png") no-repeat center
-    center;
+    center/ cover;
   display: flex;
   justify-content: flex-start;
 }
@@ -474,7 +475,7 @@ body {
 }
 .legacy {
   background: url("../img/catagory-page/heroes/legacy.png") no-repeat center
-    center;
+    center/ cover;
   display: flex;
   justify-content: flex-start;
 }
